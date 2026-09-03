@@ -71,3 +71,25 @@ p {
   
   // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
+```css
+/* Mobile only */
+@media (max-width: 600px) {
+
+  .paper {
+    padding: 15px;
+  }
+
+  .paper.image {
+    width: 85vw;
+    max-width: 350px;
+    box-sizing: border-box;
+  }
+
+  .paper.image img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+
+}
+```
