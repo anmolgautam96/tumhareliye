@@ -80,13 +80,13 @@ p {
   }
 
   .paper.image {
-    width: 85vw;
-    max-width: 350px;
+    width: 95vw;
+    max-width: 450px;
     box-sizing: border-box;
   }
 
   .paper.image img {
-    width: 100%;
+    width: 115%;
     height: auto;
     max-height: none;
   }
