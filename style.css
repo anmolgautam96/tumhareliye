@@ -43,8 +43,8 @@ body {
 }
 
 img {
-  max-height: 200px;
-  width: 100%;
+  max-height: 300px;
+  width: 135%;
   user-select: none;
 }
 
@@ -71,25 +71,3 @@ p {
   
   // filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
 }
-```css
-/* Mobile only */
-@media (max-width: 600px) {
-
-  .paper {
-    padding: 15px;
-  }
-
-  .paper.image {
-    width: 95vw;
-    max-width: 450px;
-    box-sizing: border-box;
-  }
-
-  .paper.image img {
-    width: 115%;
-    height: auto;
-    max-height: none;
-  }
-
-}
-```
