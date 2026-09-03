@@ -37,19 +37,15 @@ body {
 
 .paper.image {
   padding: 10px;
-  width: 85vw;
-  min-height: 300px;
-  padding: 15px;
-  box-sizing: border-box;
 }
 .paper.image p {
   font-size: 30px;
 }
 
 img {
+  max-height: 200px;
   width: 100%;
-  max-height: none;
-  height: auto;
+  user-select: none;
 }
 
 .paper.heart::after {
